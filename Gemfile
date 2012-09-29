@@ -27,7 +27,7 @@ gem 'therubyracer'
 
 gem 'jquery-rails'
 
-group :test, :development, :production  do
+group :test, :development  do
 
 
 gem 'pry-rails'

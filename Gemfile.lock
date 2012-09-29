@@ -15,7 +15,7 @@ GEM
       mail (~> 2.4.4)
     actionpack (3.2.7)
       activemodel (= 3.2.7)
-      activesupport (= 3.2.7)
+      activesupport (~> 3.2.7)
       builder (~> 3.0.0)
       erubis (~> 2.7.0)
       journey (~> 1.0.4)
