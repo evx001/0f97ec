@@ -9,8 +9,8 @@
 /.bundle
 
 # ignore vendor bundle
-vendor/bundle/
-
+vendor/bundle/*
+vendor/bundle.bkp/*
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -32,6 +32,9 @@ doc/app
 .yardoc
 .yardopts
 coverage
+
+#public assests
+public/assets/*
 
 # Public Uploads
 public/system/*
