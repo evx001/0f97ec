@@ -32,8 +32,9 @@ display: none;
 .container-fluid{
   display: none;
 }
+/*------------------------------
 div.container-fluid{
-	display: none;
+	display: none; */
 }
 
 h1#body_content_title{
@@ -81,6 +82,9 @@ img[alt="Samantha Cook Resume"]{
 	float:left;
 	width: 88%;
 }
+img[alt=alt="Purple Landscape Smile 115"]{
+width:75%;
+}
 
 /* #### other html tags #### */
 
@@ -90,7 +94,7 @@ padding-right: 15px;
 margin-right: 10%;
 }
 
-/*     heading main page */
+/*#### heading main page #### */
 a h1{
 	margin-left: -8px;
 	color: #000000;
@@ -102,5 +106,9 @@ float:right;
 	margin-top: -4%;
 	margin-right: 31%;
 }
-
+/*==== about page ====*/
+strong{
+float:right;
+margin-right:10%;
+}
 /* #####  end ##### */
