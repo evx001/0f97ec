@@ -26,16 +26,15 @@ h2{
 }
 h1{
 display: none;
-
-	
 }
-.container-fluid{
+
+/*.container-fluid{
   display: none;
 }
-/*------------------------------
+
 div.container-fluid{
-	display: none; */
-}
+	display: none; 
+}*/
 
 h1#body_content_title{
 visibility: hidden;
@@ -82,9 +81,14 @@ img[alt="Samantha Cook Resume"]{
 	float:left;
 	width: 88%;
 }
-img[alt=alt="Purple Landscape Smile 115"]{
+img[alt="Purple Landscape Smile 115"]{
 width:75%;
 }
+
+img[alt="Portrait Scarf Smile 203"]{
+	width:75%;
+}
+
 
 /* #### other html tags #### */
 
@@ -107,7 +111,10 @@ float:right;
 	margin-right: 31%;
 }
 /*==== about page ====*/
-strong{
+
+
+h3{
+
 float:right;
 margin-right:10%;
 }
