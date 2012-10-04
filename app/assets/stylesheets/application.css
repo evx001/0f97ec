@@ -17,6 +17,14 @@
 img{
  display: none; 
 }
+footer{
+ display: none; 
+}
+h4{
+	display: none;
+float: left;
+}
+
 h3{
  display: none;  
 }
@@ -39,6 +47,10 @@ div.container-fluid{
 h1#body_content_title{
 visibility: hidden;
 }
+#body{
+	margin-top: -4%
+
+}
 
 /* ==== the regular css =====*/
 
@@ -55,9 +67,9 @@ background: #000000;
 /* ##### images by selector ###### */
 
 img[alt="Samantha Cook 10 A Big"]{
-	margin-top: -1%;
-	width: 70%;
-margin-left: -1%;
+
+	width: 65%;
+
 }
 
 img[alt="Cook Samantha 187 A"]{
@@ -71,24 +83,32 @@ margin-left: 15%;
 }
 
 img[alt="Cook Samantha 089 Ret"]{
+float: left;
 	height:-2%;
 	width: 28%;
-float: left;
+
 padding-right: 10px;
+padding-left: 10px;
 }
 img[alt="Samantha Cook Resume"]{
 	margin-top: -50px;
-	float:left;
-	width: 88%;
+	margin-right: 25%;
+	width: 95%;
 }
 img[alt="Purple Landscape Smile 115"]{
-width:75%;
+width:100%;
+border: 1px;
 }
 
-img[alt="Portrait Scarf Smile 203"]{
-	width:75%;
+img[alt="Portrait Scarf Smile 202"]{
+width:65%;
+padding: 3px;
 }
+img[alt="Blue Tank Smile Wide 001" ]{
+	float:right;
+	-margin-top: -50%;
 
+}
 
 /* #### other html tags #### */
 
@@ -98,24 +118,29 @@ padding-right: 15px;
 margin-right: 10%;
 }
 
-/*#### heading main page #### */
+/*#### heading home page #### */
 a h1{
 	margin-left: -8px;
 	color: #000000;
 	margin-top: -1%;
 
 }
+h1 a{
+	color: black;
+}
 a[title="samanthac7@msn.com"]{
 float:right;
-	margin-top: -4%;
-	margin-right: 31%;
+	margin-top: -3%;
+	
 }
 /*==== about page ====*/
 
 
-h3{
-
-float:right;
+p {
+	margin-top: -1%;
+float: right;
+color:black;
+margin-left: 27%;
 margin-right:10%;
 }
 /* #####  end ##### */
